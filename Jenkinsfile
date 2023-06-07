@@ -10,8 +10,6 @@ pipeline {
                 // log.info 'Starting' 
                 script { 
                     echo "test"
-                    log.info 'Starting'
-                    log.warning 'Nothing to do!'
                 }
             }
         }
