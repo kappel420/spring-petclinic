@@ -1,9 +1,10 @@
 library 'DSL-Library'
 
 pipeline {
-    agent agent
+    agent none
     stages {
         stage ('Example') {
+            agent agent
             steps {
                 // log.info 'Starting' 
                 script { 
