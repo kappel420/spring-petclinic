@@ -1,7 +1,7 @@
 library 'DSL-Library'
 
 pipeline {
-    repository: 'https://github.com/kappel420/spring-petclinic', branch: 'main', skipTests: true
+    // repository: 'https://github.com/kappel420/spring-petclinic', branch: 'main', skipTests: true
     agent none
     stages {
         stage ('Example') {
