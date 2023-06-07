@@ -4,7 +4,7 @@ pipeline {
     agent none
     stages {
         stage ('Example') {
-            agent {tomek}
+            agent {label 'tomek'}
             steps {
                 // log.info 'Starting' 
                 script { 
