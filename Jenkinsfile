@@ -11,6 +11,7 @@ pipeline {
                 script { 
                     echo "test"
                 }
+                pipelineMaven(repository: 'https://github.com/kappel420/spring-petclinic', branch: 'main', skipTests: true)
             }
         }
     }
