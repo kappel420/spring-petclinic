@@ -1,4 +1,5 @@
-library 'DSL-Library'_
+//library 'DSL-Library'
+@Library('DSL-Library') _
 
 pipeline {
     // repository: 'https://github.com/kappel420/spring-petclinic', branch: 'main', skipTests: true
@@ -12,7 +13,8 @@ pipeline {
                     echo "test"
                 }
                 //pipelineMaven([repository: 'https://github.com/kappel420/spring-petclinic', branch: 'main', skipTests: false])
-                pipelineMaven()
+                //pipelineMaven()
+                pipelineMaven(repository: 'https://github.com/your/repo.git', branch: 'master', skipTests: true)
             }
         }
     }
