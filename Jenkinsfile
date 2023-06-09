@@ -14,7 +14,7 @@ pipeline {
                 }
                 //pipelineMaven([repository: 'https://github.com/kappel420/spring-petclinic', branch: 'main', skipTests: false])
                 //pipelineMaven()
-                pipelineMaven(repository: 'https://github.com/your/repo.git', branch: 'master', skipTests: true)
+                pipelineMaven(repository: 'https://github.com/kappel420/spring-petclinic', branch: 'main', skipTests: true)
             }
         }
     }
