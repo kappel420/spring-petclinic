@@ -1,4 +1,4 @@
-@Library('DSL-Library') _
+library 'DSL-Library'
 
 pipeline {
     agent none
