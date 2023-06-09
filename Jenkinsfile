@@ -1,6 +1,6 @@
 library 'DSL-Library'
 
-agent none
+agent any
 
 stages {
     stage('Example') {
