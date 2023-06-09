@@ -12,7 +12,7 @@ pipeline {
                     echo "test"
                 }
                 pipelineMaven([
-                    repository: 'https://github.com/kappel420/spring-petclinic',
+                    repository: 'https://github.com/kappel420/spring-petclinic.git',
                     branch: 'main',
                     skipTests: true
                 ])
