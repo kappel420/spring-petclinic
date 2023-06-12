@@ -5,4 +5,4 @@ pipelineMaven([
     branch: 'main',
     skipTests: true,
     skipInstall: true
-], "asas")
+])
