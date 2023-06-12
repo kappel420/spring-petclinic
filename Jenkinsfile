@@ -1,10 +1,10 @@
 library 'DSL-Library'
 
-node {
-    pipelineMaven([
-        repository: 'https://github.com/kappel420/spring-petclinic.git',
-        branch: 'main',
-        skipTests: true,
-        skipInstall: true
-    ])
-}
+pipelineMaven([
+    repository: 'https://github.com/kappel420/spring-petclinic.git',
+    branch: 'main',
+    skipTests: true ,
+    skipInstall: true
+],
+"asas"
+)
