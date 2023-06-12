@@ -8,10 +8,8 @@ library 'DSL-Library'
             stage('run pipeline') {
                 steps{
                 pipelineMaven([
-                    repository: 'https://github.com/kappel420/spring-petclinic.git',
-                    branch: 'main',
-                    skipTests: true,
-                    skipInstall: true
+                    skipTests: 0,
+                    skipInstall: 0
                     ])
             }
             }
