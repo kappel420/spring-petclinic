@@ -11,6 +11,6 @@ pipelineMaven {
   
   // Call the pipelineMaven script with the config map argument
   call(config) {
-    // Pipeline steps...
+    echo "test"
   }
 }
