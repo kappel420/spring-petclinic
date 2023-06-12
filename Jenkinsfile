@@ -5,6 +5,4 @@ pipelineMaven([
     branch: 'main',
     skipTests: true,
     skipInstall: true
-], '') {
-    // Your additional code here, if needed
-}
+], '')
