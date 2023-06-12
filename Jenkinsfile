@@ -10,7 +10,7 @@ library 'DSL-Library'
                 pipelineMaven([
                     skipTests: false,
                     skipInstall: false
-                    ])
+                    ],"asasasa")
             }
             }
         }
