@@ -8,8 +8,8 @@ library 'DSL-Library'
             stage('run pipeline') {
                 steps{
                 pipelineMaven([
-                    skipTests: 0,
-                    skipInstall: 0
+                    skipTests: false,
+                    skipInstall: false
                     ])
             }
             }
