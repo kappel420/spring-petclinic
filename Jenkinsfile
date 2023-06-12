@@ -1,8 +1,16 @@
 library 'DSL-Library'
 
-pipelineMaven([
-    repository: 'https://github.com/kappel420/spring-petclinic.git',
+pipelineMaven {
+  // Configure pipeline options
+  def config = [
     branch: 'main',
-    skipTests: true ,
+    repository: 'https://github.com/kappel420/spring-petclinic.git',
+    skipTests: true,
     skipInstall: true
-])
+  ]
+  
+  // Call the pipelineMaven script with the config map argument
+  call(config) {
+    // Pipeline steps...
+  }
+}
